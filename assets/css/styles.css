@@ -25,6 +25,7 @@
   --danger: #ea4b48;
   --error: #ea4b48;
   --text-clr: #808080;
+  --gray-100: #dae5da;
   --gray-200: #b4ccb4;
   --gray-800: #333333;
   --gray-900: #1a1a1a;
@@ -273,7 +274,7 @@ button {
   top: -0.6rem;
   right: -0.6rem;
   border-radius: 50%;
-  font-size: .8rem;
+  font-size: 0.8rem;
   /* width: 30px; */
   background-color: var(--success);
 }
@@ -285,7 +286,6 @@ button {
 .bag__total .total__title {
   font-size: 0.6rem;
 }
-
 
 .bag__total .grand__cost {
   color: #1a1a1a;
@@ -422,6 +422,7 @@ ul li:hover ul.dropdown {
     text-transform: uppercase;
     cursor: pointer;
     display: block;
+    font-size: 0.9rem;
   }
 
   .nav__menu .nav__link:hover {

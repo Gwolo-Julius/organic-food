@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.contact__hero {
+  background-color: coral;
+}
+
+.home__link {
+  position: absolute;
+  top: 50%;
+  left: 5rem;
+  transform: translate(0, -50%);
+}
+
+.hero__container {
+  width: 100%;
+}
+
+.image__wrapper {
+  position: relative;
+
+  margin-top: 1.6rem;
+}
+#contact {
+  color: var(--success);
+}
+
+.contact__container-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 0.5rem;
+  gap: 1rem;
+  width: 220px;
+  padding: 1rem;
+  box-shadow: 0 0 20px var(--gray-100);
+}
+
+.contact__container-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding-bottom: 1rem; */
+}
+
+.contact__container-card + .contact__container-card {
+  border-top: 1px solid var(--text-color);
+}
+
+.contact__container-card img {
+  width: 30px;
+  margin-top: 0.8rem;
+}
+
+/* =========== MAP SECTION ========= */
+
+.map__section {
+  width: 100%;
+}
+
+.nav__wrapper-mod {
+  border-top: 1px solid lightgray;
+  background-color: var(--gray-100);
+}
+
+.nav__items .nav__link{
+  color: black;
+}
+
+.nav__items .nav__link:hover{
+  color: var(--success);
+}
+
+.phone__call{
+  color: black;
+}
+
+.phone__call-img{
+  filter: invert(1);
+}
+/* ============= MEDIA QUERIES ============== */
+@media screen and (max-width: 767px) {
+  .home__link {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translate(0, -50%);
+  }
+
+  .nav__items .nav__link{
+  color: white;
+}
+
+.nav__items .nav__link:hover{
+  color: var(--warning);
+}
+}

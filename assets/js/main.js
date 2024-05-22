@@ -105,5 +105,7 @@ sr.reveal(`.home__title span:nth-child(3), .popular__categories`, {
 sr.reveal(`.home__tooltip, .home__button, .home__button,  .footer`, {
   origin: "bottom",
 });
-sr.reveal(`.about__data`, { origin: "left" });
-sr.reveal(`.about__img, .model__tooltip`, { origin: "right" });
+sr.reveal(`.about__data, .contact__container-card`, { origin: "left" });
+sr.reveal(`.about__img, .model__tooltip, .contact__container-right`, {
+  origin: "right",
+});
