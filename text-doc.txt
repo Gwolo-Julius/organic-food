@@ -1,0 +1,185 @@
+=============== HEADER ==============
+
+Store Location: Lincoln- 344, Illinois, Chicago, USA
+========LOGO=======
+Ecobazar
+
+=============== Home 1 ==============
+
+hero h1
+Fresh & Healthy <br>
+Organic Food
+
+=====h3======
+Sale up to <span>30% OFF</span>
+
+=====p=====
+Free shipping on all your order.
+
+====button hero=====
+
+Shop now
+
+===== services h4 =======
+Free Shipping
+
+=====p=====
+Free shipping on all your order
+
+------------------------------
+===== services h4 =======
+Customer Support 24/7
+
+=====p=====
+Instant access to Support
+
+--------------------------------
+===== services h4 =======
+100% Secure Payment
+
+=====p=====
+We ensure your money is save
+
+---------------------------------
+===== services h4 =======
+Money-Back Guarantee
+
+=====p=====
+30 Days Money-Back Guarantee
+
+---------------------------------
+
+=============== POPULAR CATEGORIES ==============
+h2 .popular__category-title
+Popular Categories
+
+Fresh Fruit
+Fresh Vegetables
+Meat & Fish
+Snacks
+Beverages
+Beauty & Health
+Bread & Bakery
+Baking Needs
+Cooking
+Diabetic Food
+Dish Detergents
+Oil
+
+=============== POPULAR PRODUCTS ==============
+h2 .popular__product-title
+Popular Products
+
+Green Apple 
+$14.99
+$20.99
+
+Fresh Indian Malta
+$20.00
+
+Chinese cabbage
+$12.00
+
+Green Lettuce
+$9.00
+
+Eggplant
+$34.00
+
+Big Potatoes
+$20.00
+
+Corn
+$20.00
+
+Fresh Cauliflower
+$12.00
+
+Green Capsicum
+$9.00
+$20.99
+
+Green Chili
+$34.00
+
+-----------
+=============== HOT DEAL==============
+
+
+Red Chili
+$12.00
+
+Red Tomatos
+$9.00
+$20.99
+
+Surjapur Mango
+$34.00
+
+
+=============== POPULAR CATEGORIES ==============
+Summer Sale
+<span>37%</span> OFF
+
+paragraph
+Free on all your order, Free Shipping and  30 days money-back guarantee
+
+green button
+Shop Now
+
+=============== FEATURED PRODUCTS==============
+h2
+Featured Products
+
+
+
+=============== FOOTER SECTION ==============
+
+Ecobazar
+
+paragraph
+Morbi cursus porttitor enim lobortis molestie. Duis gravida turpis dui, eget bibendum magna congue nec.
+
+(219) 555-0114
+or
+Proxy@gmail.com
+
+=============== links ==============
+h3
+My Account
+
+links
+My Account
+Order History
+Shoping Cart
+Wishlist
+
+h3
+Helps
+
+links
+Contact
+Faqs
+Terms & Condition
+Privacy Policy
+
+h3
+Proxy
+
+links
+About
+Shop
+Product
+Track Order
+
+h3
+Categories
+
+links
+Fruit & Vegetables
+Meat & Fish
+Bread & Bakery
+Beauty & Health
+
+copy right
+Ecobazar eCommerce © 2024. All Rights Reserved

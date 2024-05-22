@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Organic Food Website</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header">
+      <div class="top__header-wrapper">
+        <div class="top__header container__header">
+          <div class="top__location">
+            <div class="top__location-icon">
+              <img
+                src="assets/img/map-pin.png"
+                class="map__pin"
+                alt="map-pin"
+              />
+            </div>
+            <marquee behavior="scroll" direction="left">
+              <p>Store Location: Lincoln- 344, Illinois, Chicago, USA</p>
+            </marquee>
+          </div>
+          <div class="top__header-signin">
+            <a href="#" class="sign__in">Sign in</a>/<a
+              href="#"
+              class="sign__in"
+              >Sign Up</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="main__header-wrapper container__header">
+        <div class="header__logo">
+          <a href="#" class="top__header-logo">
+            <img src="assets/img/logo.png" class="logo__img" alt="" />
+            Ecobazar
+          </a>
+        </div>
+        <form action="" class="search__form">
+          <img src="assets/img/search.png" alt="" class="search__icon" />
+          <input type="text" class="input__text" placeholder="Search..." />
+          <button class="search__button">Search</button>
+        </form>
+        <div class="shop__wrapper">
+          <div class="heart">
+            <img src="assets/img/heart-1.png" alt="" class="heart__img" />
+          </div>
+          <div class="bag">
+            <img src="assets/img/bag.png" class="bag__img" alt="" />
+            <span class="bag__count js-cart-quantity">0</span>
+          </div>
+          <div class="bag__total">
+            <span class="total__title">Shpping Cart:</span>
+            <span class="grand__cost">$57.50</span>
+          </div>
+          <div class="toggle__button">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+      </div>
+      <div class="nav__wrapper">
+        <nav class="nav container__header">
+          <div class="nav__cont">
+            <ul class="nav__menu">
+              <li class="nav__items">
+                <a href="#" class="nav__link"
+                  >Home <i class="ri-arrow-down-s-line"></i
+                ></a>
+                <ul class="dropdown">
+                  <li><a href="#menu-2">Menu-2</a></li>
+                  <li><a href="#menu-3">Menu-3</a></li>
+                  <li><a href="#menu-4">Menu-4</a></li>
+                  <li><a href="#menu-5">Menu-5</a></li>
+                </ul>
+              </li>
+
+              <li class="nav__items">
+                <a href="#shops" class="nav__link"
+                  >Shops <i class="ri-arrow-down-s-line"></i
+                ></a>
+                <ul class="dropdown">
+                  <li><a href="#">Shop-1</a></li>
+                  <li><a href="#">Shop-2</a></li>
+                </ul>
+              </li>
+
+              <li class="nav__items">
+                <a href="#pages" class="nav__link"
+                  >Pages <i class="ri-arrow-down-s-line"></i
+                ></a>
+                <ul class="dropdown">
+                  <li><a href="#">Page-1</a></li>
+                  <li><a href="#">Page-2</a></li>
+                  <li><a href="#">Page-3</a></li>
+                </ul>
+              </li>
+
+              <li class="nav__items">
+                <a href="#blogs" class="nav__link"
+                  >Blogs <i class="ri-arrow-down-s-line"></i
+                ></a>
+                <ul class="dropdown">
+                  <li><a href="#">Blog-1</a></li>
+                  <li><a href="#">Blog-2</a></li>
+                </ul>
+              </li>
+
+              <li class="nav__items">
+                <a href="#about" class="nav__link">About Us</a>
+              </li>
+
+              <li class="nav__items">
+                <a href="#contact" class="nav__link">Contact Us</a>
+              </li>
+            </ul>
+            <div class="close__button"><i class="ri-close-line"></i></div>
+            <div class="phone__call">
+              <img
+                src="assets/img/PhoneCall 1.png"
+                class="phone__call-img"
+                alt=""
+              />
+              <span>(219) 555-0114</span>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!--==================== HERO ====================-->
+
+    <section class="hero__container section">
+      <div class="hero container">
+        <div class="hero__top-container">
+          <article class="main__article">
+            <div class="main__img">
+              <img
+                src="assets/img/banna1.png"
+                class="main__article-img"
+                alt=""
+              />
+            </div>
+            <div class="main__article-wrapper">
+              <h2 class="main__article-title">
+                Fresh & Healthy <br />
+                Organic Food
+              </h2>
+              <div class="small__wrapper">
+                <h4>Sale up to <span>30% OFF</span></h4>
+                <p>Free shipping on all your order.</p>
+              </div>
+              <a href="#" class="white__button">
+                Shop now<img src="assets/img/right-btn-arrow.png" alt="" />
+              </a>
+            </div>
+          </article>
+
+          <article class="sub__article">
+            <div class="sub__article-1">
+              <img src="assets/img/home-one-2.png" alt="" />
+              <div class="sub__artricle-1__overlay">
+                <span class="sale">Summer Sale</span>
+                <h2>75% OFF</h2>
+                <p>Only Fruit & Vegetable</p>
+                <a href="#" class="btn">
+                  Shop Now <img src="assets/img/right-btn-arrow.png" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="sub__article-2">
+              <img src="assets/img/home-one-3.png" alt="" />
+              <div class="sub__artricle-2__overlay">
+                <p>Best Deal</p>
+                <h3 class="special__text">
+                  Special Products <br />
+                  Deal of the Month
+                </h3>
+                <a href="#" class="btn">
+                  Shop Now <img src="assets/img/right-btn-arrow.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="hero__bottom-container">
+          <div class="services">
+            <div class="services__icon">
+              <img src="assets/img/delivery-truck 1.png" alt="" />
+            </div>
+            <div class="services__info">
+              <h4>Free Shipping</h4>
+              <p>Free shipping on all your order</p>
+            </div>
+          </div>
+          <div class="services">
+            <div class="services__icon">
+              <img src="assets/img/headphones 1.png" alt="" />
+            </div>
+            <div class="services__info">
+              <h4>Customer Support 24/7</h4>
+              <p>Instant access to Support</p>
+            </div>
+          </div>
+          <div class="services">
+            <div class="services__icon">
+              <img src="assets/img/shopping-bag.png" alt="" />
+            </div>
+            <div class="services__info">
+              <h4>100% Secure Payment</h4>
+              <p>We ensure your money is save</p>
+            </div>
+          </div>
+          <div class="services">
+            <div class="services__icon">
+              <img src="assets/img/package.png" alt="" />
+            </div>
+            <div class="services__info">
+              <h4>Money-Back Guarantee</h4>
+              <p>30 Days Money-Back Guarantee</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== POPULAR CATEGORIES ====================-->
+      <section class="popular__categories section">
+        <div class="product__categories-container container">
+          <div class="sub__heading">
+            <h3 class="all__headings">Popular Categories</h3>
+            <a href="#" class="btn"
+              >View All<img src="assets/img/right-btn-arrow.png" alt=""
+            /></a>
+          </div>
+          <div class="product__categories-items">
+            <a href="#" class="link__products">
+              <div class="product__categories-card">
+                <img
+                  src="assets/img/category-1.png"
+                  alt=""
+                  class="product__categories-card__img"
+                />
+                <p class="product__description-name">Fresh Fruit</p>
+              </div>
+            </a>
+            <a href="#" class="link__products">
+              <div class="product__categories-card">
+                <img
+                  src="assets/img/category-2.png"
+                  alt=""
+                  class="product__categories-card__img"
+                />
+                <p class="product__description-name">Fresh Vegetables</p>
+              </div>
+            </a>
+            <a href="#" class="link__products">
+              <div class="product__categories-card">
+                <img
+                  src="assets/img/category-3.png"
+                  alt=""
+                  class="product__categories-card__img"
+                />
+                <p class="product__description-name">Meat & Fish</p>
+              </div>
+            </a>
+            <a href="#" class="link__products">
+              <div class="product__categories-card">
+                <img
+                  src="assets/img/category-4.png"
+                  alt=""
+                  class="product__categories-card__img"
+                />
+                <p class="product__description-name">Snacks</p>
+              </div>
+            </a>
+            <a href="#" class="link__products">
+              <div class="product__categories-card">
+                <img
+                  src="assets/img/category-5.png"
+                  alt=""
+                  class="product__categories-card__img"
+                />
+                <p class="product__description-name">Beverages</p>
+              </div>
+            </a>
+            <a href="#" class="link__products">
+              <div class="product__categories-card">
+                <img
+                  src="assets/img/category-6.png"
+                  alt=""
+                  class="product__categories-card__img"
+                />
+                <p class="product__description-name">Beauty & Health</p>
+              </div>
+            </a>
+            <a href="#" class="link__products">
+              <div class="product__categories-card">
+                <img
+                  src="assets/img/category-7.png"
+                  alt=""
+                  class="product__categories-card__img"
+                />
+                <p class="product__description-name">Bread & Bakery</p>
+              </div>
+            </a>
+            <a href="#" class="link__products">
+              <div class="product__categories-card">
+                <img
+                  src="assets/img/category-8.png"
+                  alt=""
+                  class="product__categories-card__img"
+                />
+                <p class="product__description-name">Baking Needs</p>
+              </div>
+            </a>
+            <a href="#" class="link__products">
+              <div class="product__categories-card">
+                <img
+                  src="assets/img/category-9.png"
+                  alt=""
+                  class="product__categories-card__img"
+                />
+                <p class="product__description-name">Cooking</p>
+              </div>
+            </a>
+            <a href="#" class="link__products">
+              <div class="product__categories-card">
+                <img
+                  src="assets/img/category-10.png"
+                  alt=""
+                  class="product__categories-card__img"
+                />
+                <p class="product__description-name">Diabetic Food</p>
+              </div>
+            </a>
+            <a href="#" class="link__products">
+              <div class="product__categories-card">
+                <img
+                  src="assets/img/category-11.png"
+                  alt=""
+                  class="product__categories-card__img"
+                />
+                <p class="product__description-name">Dish Detergents</p>
+              </div>
+            </a>
+            <a href="#" class="link__products">
+              <div class="product__categories-card">
+                <img
+                  src="assets/img/category-12.png"
+                  alt=""
+                  class="product__categories-card__img"
+                />
+                <p class="product__description-name">Oil</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== POPULAR PRODUCTS ====================-->
+      <section class="popular__product section">
+        <div class="product__categories-container container">
+          <div class="sub__heading">
+            <h3 class="all__headings">Popular Products</h3>
+            <a href="#" class="btn"
+              >View All<img src="assets/img/right-btn-arrow.png" alt=""
+            /></a>
+          </div>
+          <div class="popular__products-items"></div>
+        </div>
+      </section>
+
+      <!--==================== HOT DEALS ====================-->
+      <section class="hot__deal section"></section>
+
+      <!--==================== BUNNER ====================-->
+      <section class="bunner section"></section>
+
+      <!--==================== FEATURED PRODUCTS ====================-->
+      <section class="featured__products section"></section>
+
+      <!--==================== LATEST NEWS ====================-->
+      <section class="latest__news section"></section>
+
+      <!--==================== CLIENTS TESTIMONIAL ====================-->
+      <section class="testimonial section"></section>
+
+      <!--==================== SPONSOR ====================-->
+      <section class="sponsor section"></section>
+
+      <!--==================== FOLLOW US ====================-->
+      <section class="follow__us section"></section>
+    </main>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <!--==================== NEWS LETTER ====================-->
+      <section class="news__letter">
+        <div class="new__letter-wrapper container">
+          <div class="new__letter-info">
+            <h3 class="new__letter-heading">Subcribe to our Newsletter</h3>
+            <p class="news__letter-paragraph">
+              Pellentesque eu nibh eget mauris congue mattis mattis nec tellus.
+              Phasellus imperdiet elit eu magna.
+            </p>
+          </div>
+          <div class="news__letter-form">
+            <form action="" class="news__input-form">
+              <input
+                type="text"
+                class="input__text"
+                placeholder="Your email address..."
+              />
+              <button class="footer__button">Subscribe</button>
+            </form>
+          </div>
+          <div class="new__letter-socials">
+            <a href="www.facebook.com" target="_blank" class="social">
+              <i class="ri-facebook-fill"></i>
+            </a>
+            <a href="www.twitter.com" target="_blank" class="social">
+              <i class="ri-twitter-x-line"></i>
+            </a>
+            <a href="www.pinterest.com" target="_blank" class="social">
+              <i class="ri-pinterest-line"></i>
+            </a>
+            <a href="www.instagram.com" target="_blank" class="social">
+              <i class="ri-instagram-line"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <div class="footer__container container">
+        <div class="footer__item-wrapper">
+          <div class="footer__item-info">
+            <div class="header__logo">
+              <a href="#" class="top__header-logo bottom__footer-logo">
+                <img src="assets/img/logo.png" class="logo__img" alt="" />
+                Ecobazar
+              </a>
+              <p class="footer__paragraph">
+                Morbi cursus porttitor enim lobortis molestie. Duis gravida
+                turpis dui, eget bibendum magna congue nec.
+              </p>
+              <div class="footer__contact-container">
+                <div class="footer__contact-phone">(219) 555-0114</div>
+                <span>or</span>
+                <div class="footer__contact-email">
+                  <p>proxy@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__item-links">
+          <div class="footer__link-wrapper">
+            <h3 class="footer__link-heading">My Account</h3>
+            <ul class="link__item">
+              <li>
+                <a href="#" class="footer__link">My Account</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Order History</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Shoping Cart</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Wishlist</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__link-wrapper">
+            <h3 class="footer__link-heading">Helps</h3>
+            <ul class="link__item">
+              <li>
+                <a href="#" class="footer__link">Contact</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Faqs</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Terms & Condition</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__link-wrapper">
+            <h3 class="footer__link-heading">Proxy</h3>
+            <ul class="link__item">
+              <li>
+                <a href="#" class="footer__link">About</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Shop</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Product</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Track Order</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__link-wrapper">
+            <h3 class="footer__link-heading">Categories</h3>
+            <ul class="link__item">
+              <li>
+                <a href="#" class="footer__link">Fruit & Vegetables</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Meat & Fish</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Bread & Bakery</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Beauty & Health</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="sponsors container">
+        <p class="copy__right">
+          Ecobazar eCommerce © 2024. All Rights Reserved
+        </p>
+        <div class="sponsors__logo">
+          <img src="assets/img/sp-1.png" alt="" class="sponsors__img" />
+          <img src="assets/img/sp-2.png" alt="" class="sponsors__img" />
+          <img src="assets/img/sp-3.png" alt="" class="sponsors__img" />
+          <img src="assets/img/sp-4.png" alt="" class="sponsors__img" />
+          <img src="assets/img/sp-5.png" alt="" class="sponsors__img" />
+        </div>
+      </div>
+    </footer>
+    <!--========== SCROLL UP ==========-->
+    <a href="" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== PRODUCTS JS ===============-->
+    <script src="assets/js/product-1.js"></script>
+
+    <!--=============== CART JS ===============-->
+    <script src="assets/js/cart.js"></script>
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
